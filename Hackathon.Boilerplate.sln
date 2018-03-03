@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{17DD5718-6E13-4F2C-9738-B410396D4552}"
 EndProject
@@ -29,12 +29,48 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83
 		documentation\images\hackathon.png = documentation\images\hackathon.png
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Alexa", "src\Feature\Alexa\code\Feature.Alexa.csproj", "{8DE76FDA-901A-4203-86FD-F1F0E5171FF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Alexa", "Alexa", "{29A23DB3-C274-436E-A103-31EE80270486}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Alexa", "Alexa", "{972235BA-F431-40C0-B7B5-CE344C678038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.Alexa", "src\Foundation\Alexa\code\Foundation.Alexa.csproj", "{D5F8A89C-254E-41F9-95B1-4798314D652A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Alexa", "src\Project\Alexa\code\Project.Alexa.csproj", "{1A776C2E-E95E-4039-909E-3A5CC5408490}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Alexa", "Alexa", "{CDFACE59-9F8E-4CC1-99A5-51A0DF2630FE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DE76FDA-901A-4203-86FD-F1F0E5171FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE76FDA-901A-4203-86FD-F1F0E5171FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE76FDA-901A-4203-86FD-F1F0E5171FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE76FDA-901A-4203-86FD-F1F0E5171FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F8A89C-254E-41F9-95B1-4798314D652A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F8A89C-254E-41F9-95B1-4798314D652A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F8A89C-254E-41F9-95B1-4798314D652A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F8A89C-254E-41F9-95B1-4798314D652A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A776C2E-E95E-4039-909E-3A5CC5408490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A776C2E-E95E-4039-909E-3A5CC5408490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A776C2E-E95E-4039-909E-3A5CC5408490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A776C2E-E95E-4039-909E-3A5CC5408490}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854} = {DAFED8F5-6CBD-4384-AAD6-DC3BCCF24911}
+		{8DE76FDA-901A-4203-86FD-F1F0E5171FF1} = {29A23DB3-C274-436E-A103-31EE80270486}
+		{29A23DB3-C274-436E-A103-31EE80270486} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{972235BA-F431-40C0-B7B5-CE344C678038} = {4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}
+		{D5F8A89C-254E-41F9-95B1-4798314D652A} = {972235BA-F431-40C0-B7B5-CE344C678038}
+		{1A776C2E-E95E-4039-909E-3A5CC5408490} = {CDFACE59-9F8E-4CC1-99A5-51A0DF2630FE}
+		{CDFACE59-9F8E-4CC1-99A5-51A0DF2630FE} = {15D97D61-D597-42EC-B7E9-E9EC8130E630}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
